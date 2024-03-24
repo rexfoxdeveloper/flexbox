@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "shabnam";
+    src: url(../fonts/Shabnam-FD.woff2) format(.woff2);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "shabnam";
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.section-head-title {
+    display: flex;
+    gap: 10px;
+}
+
+.section-head-icon {
+    color: rgb(48, 48, 255);
+}
+
+.section-head-link {
+    text-decoration: none;
+    color: rgb(48, 48, 255);
+}
+
+.section-row {
+    display: flex;
+}
+
+.product {
+    width: 300px;
+    margin: 5px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
+.product-image {
+    width: 295px;
+    height: 295px;
+    margin-bottom: 10px;
+}
+
+.product-text {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.product-link {
+    color: gray;
+    text-decoration: none;
+}
+
+.product-offer {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.product-offer-percent {
+    background-color: aqua;
+}
+
+.product-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rate {
+    display: flex;
+}
+
+
+
