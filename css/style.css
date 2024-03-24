@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    align-items: center;
 }
 
 .section-head-title {
@@ -32,7 +33,7 @@ body {
 }
 
 .section-head-icon {
-    color: rgb(105, 105, 248);
+    color: rgb(83, 83, 224);
 }
 
 .section-head-link {
@@ -42,10 +43,11 @@ body {
 
 .section-row {
     display: flex;
+    gap: 5px;
 }
 
 .product {
-    width: 300px;
+    width: 100%;
     margin: 5px;
     background-color: white;
     padding: 15px;
@@ -108,12 +110,10 @@ body {
 .rate {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .rate-icon {
     width: 20px;
     height: 20px;
 }
-
-
-
