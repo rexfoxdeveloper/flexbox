@@ -29,11 +29,14 @@ body {
 
 .section-head-title {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
 .section-head-icon {
     color: rgb(83, 83, 224);
+    width: 20px;
+    height: 20px;
 }
 
 .section-head-link {
