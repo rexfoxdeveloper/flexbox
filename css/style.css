@@ -37,6 +37,7 @@ body {
     color: rgb(83, 83, 224);
     width: 20px;
     height: 20px;
+    transform: rotate(180deg);
 }
 
 .section-head-link {
