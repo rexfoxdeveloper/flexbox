@@ -69,9 +69,14 @@ body {
     pointer-events: none;
 }
 
-.product .link {
+.product-link {
     pointer-events: painted;
     text-decoration: none;
+    transition: all 500ms ease 5ms;
+}
+
+.product-link :active {
+    transform: scale(5);
 }
 
 .product-image {
