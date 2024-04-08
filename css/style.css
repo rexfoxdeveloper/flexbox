@@ -75,10 +75,6 @@ body {
     transition: all 500ms ease 5ms;
 }
 
-.product-link :active {
-    transform: scale(5);
-}
-
 .product-image {
     width: 100%;
     height: 295px;
