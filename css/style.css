@@ -52,7 +52,7 @@ body {
 
 .section-row :hover {
     box-shadow: 0 0 30px gray;
-    transform: scale(1.05) translatey(-2px); 
+    transform: scale(1.05) translatey(-2px);
 }
 
 .product {
@@ -62,7 +62,7 @@ body {
     padding: 15px;
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
-    transition: all 500ms ease 5ms; 
+    transition: all 500ms ease 5ms;
 }
 
 .product * {
