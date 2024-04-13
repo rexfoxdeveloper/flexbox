@@ -1,3 +1,8 @@
+* {
+    --hover-shadow : 0 0 30px gray;
+    --main-shadow : 0 0 10px gray;
+}
+
 @font-face {
     font-family: "shabnam";
     src: url(../fonts/Shabnam-FD.woff2) format(woff2);
@@ -51,7 +56,7 @@ body {
 }
 
 .section-row :hover {
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--hover-shadow);
     transform: scale(1.05) translatey(-2px);
 }
 
@@ -60,8 +65,8 @@ body {
     margin: 5px;
     background-color: white;
     padding: 15px;
-    box-shadow: 0 0 10px gray;
     border-radius: 10px;
+    box-shadow: var(--main-shadow);
     transition: all 500ms ease 5ms;
 }
 
