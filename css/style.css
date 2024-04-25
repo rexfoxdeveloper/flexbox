@@ -71,6 +71,7 @@ body {
     border-radius: 10px;
     box-shadow: var(--main-shadow);
     transition: all 500ms ease 5ms;
+    flex-grow: 1;
 }
 
 .product * {
@@ -196,3 +197,11 @@ body {
         opacity: 0;
     }
 }
+
+#product-1 {
+    order: 2;
+}
+
+/* Flex-grow
+Flex-Shrink
+Flex-basis */
