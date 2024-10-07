@@ -19,6 +19,7 @@
 body {
     font-family: "shabnam", sans-serif;
     background-color: rgb(235, 235, 235);
+    height: 100vh;
 }
 
 .container {
@@ -55,7 +56,9 @@ body {
 
 .section-row {
     display: flex;
+    height: 100%;
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .section-row :hover {
@@ -65,13 +68,15 @@ body {
 
 .product {
     width: 400px;
+    min-width: 298.75px;
+    max-width: 298.75px;
     margin: 5px;
     background-color: white;
     padding: 15px;
     border-radius: 10px;
     box-shadow: var(--main-shadow);
     transition: all 500ms ease 5ms;
-    flex-grow: 1;
+    flex: auto;   /*{flex-grow: 1; flex-shrink: 1; flex-basis: auto;}*/
 }
 
 .product * {
